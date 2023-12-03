@@ -56,7 +56,7 @@ const ProjectCard = ({
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
-            <div
+            {/* <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 m-2 rounded-full flex justify-center items-center cursor-pointer'
             >
@@ -65,11 +65,9 @@ const ProjectCard = ({
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
-            </div>
-
+            </div> */}
           </div>
         </div>
-
         <div className='content mt-5'>
           <p className={`mt-2  text-[14px] ${selColor == "blue"?'text-white':'text-secondary'}`} style={{ textAlign: 'justify' }}>{description}</p>
         </div>
@@ -124,13 +122,12 @@ const Project = ({ theme, selColor }) => {
         <p className={`${styles.sectionSubText}`} style={{color: theme.project.top_title}}>My work</p>
         <h2 className={`${styles.sectionHeadText}`} style={{color: theme.project.title}}>Projects.</h2>
       </motion.div>
-
       <div className='project w-full flex'>
         <motion.p whileInView={{ opacity: 1, transform: 'none' }}
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] leading-[30px]'
         >
-          <ul>
+          {/* <ul>
             {list.map((item) => (
               <ProjectList
                 title={item.title}
@@ -139,8 +136,7 @@ const Project = ({ theme, selColor }) => {
                 id={item.id}
               />
             ))}
-          </ul>
-
+          </ul> */}
           <div className='box mt-20 flex flex-wrap justify-center'>
             {data.map((project, index) => (
               <div>

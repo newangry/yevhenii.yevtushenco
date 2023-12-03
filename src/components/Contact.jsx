@@ -41,9 +41,9 @@ const Contact = ({theme, selColor}) => {
         '',
         {
           from_name: form.name,
-          to_name: "Strong Rabbit",
+          to_name: "Yevhenii Yevtushenko",
           from_email: form.email,
-          to_email: "strongrabbit@gmail.com",
+          to_email: "yevhenii.yevtushenko1@gmail.com",
           message: form.message,
         },
         'FMQ4a1hK5NSAkumfj',
@@ -147,12 +147,12 @@ const Contact = ({theme, selColor}) => {
         <div className="mt-5 contact__options">
           <article className="contact__option">
             <MdEmail />
-            <a href="mailto:strongrabbit@gmail.com" target="_blank" className={`${selColor == "blue"?'pink':'blue'}-text-gradient`}>strongrabbit@gmail.com</a>
+            <a href="mailto:yevhenii.yevtushenko1@gmail.com" target="_blank" className={`${selColor == "blue"?'pink':'blue'}-text-gradient`}>yevhenii.yevtushenko1@gmail.com</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp />
             <a href="https://api.whatsapp.com/send/?phone=&text&app_absent=0&lang=en" target="_blank"  className={`${selColor == "blue"?'pink':'blue'}-text-gradient`}>
-              +12345678
+              + 380975148261
             </a>
           </article>
         </div>

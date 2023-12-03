@@ -4,6 +4,9 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import markprompt from "./project/markprompt.png"
+import wafi from "./project/wafi.png"
+
 
 import github from "./github.png";
 import demo from "./demo.png"
@@ -47,6 +50,7 @@ import mini from "./project/library.png";
 import snl from "./project/snl.jpeg";
 
 export {
+  wafi,
   logo,
   backend,
   creator,
@@ -73,4 +77,5 @@ export {
   trie,ds,cg,
   port_3d, jsp, chitchat, notes, react1,
   be,sql, mini, snl,
+  markprompt
 };

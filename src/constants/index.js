@@ -1,11 +1,13 @@
 import {
-    javascript,html,css,reactjs,tailwind,nodejs,mongodb,git,threejs,
+    reactjs,tailwind,nodejs,mongodb,git,threejs,
     hf,bny,holopin,
     clg,school,
-    crypto,oop,yml,crud,dwld,onetomany,
+    oop,yml,crud,dwld,onetomany,
     trie,ds,cg,
     port_3d, jsp, chitchat, notes, react1,
     be,sql, mini, snl,
+    markprompt,
+    wafi
   } from "../assets";
 
   const profiles = [
@@ -60,30 +62,7 @@ import {
   ]
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name:"Bootstrap",
-      icon: "https://img.icons8.com/color/480/000000/bootstrap.png",
-    },
-    {
-      name:"Google Cloud",
-      icon: "https://img.icons8.com/color/480/000000/google-cloud.png",
-    },
-    {
-      name:"C++ tool",
-      icon: "https://img.icons8.com/color/480/000000/c-plus-plus-logo.png",
-    },
+   
     {
       name: "React JS",
       icon: reactjs,
@@ -117,15 +96,15 @@ import {
   const list = [
     {
       id: "java",
-      title: "Java",
+      title: "Chatbots",
     },
     {
       id: "c++",
-      title: "C++",
+      title: "Blockchain",
     },
     {
       id: "web",
-      title: "Web Dev",
+      title: "Gis",
     },
     {
       id: "other",
@@ -135,136 +114,56 @@ import {
 
   export const javaProject = [
     {
-      name: "Cryptography",
+      name: "chatjet.co",
       description:
-        "The project is based on a cryptography technique that uses Double layer encryption and decryption using Armstrong numbers and RGB color-based mappings for various types of file format. The idea is inspired from a research paper.",
+        " Built a responsive and user-friendly Frontend for Playground pages that enabled user to train data such as Pdf, Txt, Web Scraping and Git and chat with generated the chatbots that can be integrated other Frameworks such as React, Vue, Angular, Vanila, etc on FrondEnd.",
       tags: [
         {
-          name: "cryptography",
+          name: "NextJS",
           color: "blue-text-gradient",
         },
         {
-          name: "security",
+          name: "Supabsae",
           color: "green-text-gradient",
         },
         {
-          name: "java",
+          name: "Embedding",
           color: "pink-text-gradient",
         },
       ],
-      image: crypto,
-      source_link: "https://github.com/",
-      source_code_link: "https://github.com/",
+      image: markprompt,
+      source_link: "https://markprompt.com/",
+      source_code_link: "/",
     },
     {
-      name: "Snake Yaml",
+      name: "Wafi",
       description:
-        "Created a simple Maven project, a YAML file and write student data in it. As the request is made, crud should be performed in real time . (Hint: Used SnakeYAML library and add dependency in pom)",
+        "Generative AI, Natural Language Process, Large Language Model, TTS, STT and Vector DB, I designed the Schema for Vector data and implemented LLM, NLP by Langchain for AI frameworks and used Supabase and Pinecone for Vector DB on Backend.",
       tags: [
         {
-          name: "yaml",
+          name: "NextJS",
           color: "blue-text-gradient",
         },
         {
-          name: "springboot",
+          name: "Pinecone",
           color: "green-text-gradient",
         },
         {
-          name: "postman",
+          name: "FastAPI",
           color: "pink-text-gradient",
         },
-      ],
-      image: yml,
-      source_link: "https://github.com/",
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "CRUD operations",
-      description:
-        "Built a java based application to allow user to create, read, update and delete Entities. Spring Boot provides an interface called CrudRepository that contains methods for CRUD operations.",
-      tags: [
         {
-          name: "java",
+          name: "Embedding",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "AWS",
           color: "blue-text-gradient",
         },
-        {
-          name: "springboot",
-          color: "green-text-gradient",
-        },
-        {
-          name: "crud",
-          color: "pink-text-gradient",
-        },
       ],
-      image: crud,
-      source_link: "https://github.com/",
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Byte-Array-to-File",
-      description:
-        "Built a java project where we input a file using byte array, store it on local system. In order to convert a byte array to a file, we will be using a method named the getBytes() method of String class.",
-      tags: [
-        {
-          name: "java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "byteArray",
-          color: "green-text-gradient",
-        },
-        {
-          name: "file",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: dwld,
-      source_link: "https://github.com/",
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Spring Boot One To Many",
-      description:
-        "Implemented Spring Boot One-To-Many mapping with Hibernate in a Spring Boot CRUD using @OnetoMany annotation. Mapping between two entities and used a MySQL database to store and retrieve the data.",
-      tags: [
-        {
-          name: "onetomany",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "springbott",
-          color: "green-text-gradient",
-        },
-        {
-          name: "crud",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: onetomany,
-      source_link: "https://github.com/",
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "OOP Lab",
-      description:
-        "These projects contain object oriented programming primary concepts and its code in Java language. Topics like : Inheritence, Constructor, Virtual function, Interface, Exception Handling, Generic Programming and File Handling etc.",
-      tags: [
-        {
-          name: "java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "oop",
-          color: "green-text-gradient",
-        },
-        {
-          name: "coding",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: oop,
-      source_link: "https://github.com/s",
-      source_code_link: "https://github.com/",
+      image: wafi,
+      source_link: "https://wafi-six.vercel.app/login/admin",
+      source_code_link: "/",
     },
   ];
   
@@ -546,88 +445,68 @@ import {
   
   const experiences = [
     {
-      title: "Software Devloper",
-      company_name: "Bank of New York Mellon",
-      icon: bny,
+      title: "Senior Developer",
+      company_name: "MarkPrompt in US",
+      icon: "https://markprompt.com/static/favicons/favicon.ico",
       iconBg: "#383E56",
-      date: "Aug 2023 - Present",
+      date: "July 2022 - Aug 2023",
       link: "",
       points: [
-        "Software build is now used internally in the company and by the company’s clients for operating Netx360 and Netx360+.",
-        "Resolved more than 50+ Software Composition Analysis (SCA) and vulnerabilities issues.",
-        "Adapted Agile methodologies, CI/CD, and Test-Driven Programming to uphold strong programming practices.",
-        "Using technologies like Java, SpringBoot, C#, .NET and AngularJS.",
+        "Worked as Full Stack Developer and Generative AI, NLP, LLM Engineer.",
+        "Scraper for websites using API on Backend(Typescript)",
+        "Optimized Supabase database to store Vector DB and train data.",
+        "Built web application with Next JS(SSR) using Shadns UI for Front End",
+        "Implement Stripe for subscriptions and membership for users.",
+        "Contributed to CI/CD pipeline automation, and single handedly carried out all DevOps responsibilities for the team.",
+        "Deployed the project to AWS server"
       ],
-      link: "https://drive.google.com/drive/folders/13FK-YewFDv8ALmzKglPBmb6Z3oenuYoP",
+      link: "https://markprompt.com/static/favicons/favicon.ico",
     },
     {
-      title: "Research Intern",
-      company_name: "National Security Council Secretriat",
-      icon: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-national-security-agency-crowdfunding-flaticons-lineal-color-flat-icons-2.png",
+      title: "Software Engineer",
+      company_name: "Sparrow Charts in US",
+      icon: "https://uploads-ssl.webflow.com/5fc9939e7a516514c66a2046/609b4b5b1484fbeb543c5e77_256px.png",
       iconBg: "#383E56",
-      date: "Mar 2022 - Oct 2023",
+      date: "Mar 201 - Aug 2022",
       link: "",
       points: [
-        "Creating a system for secure fine-grained next-generation access control and authorization of digital assets and operations using policy based cryptosystem.",
-        "Collaborating with cross-functional technologies like spring boot, react etc. to integrate high-quality products.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Used machine learning(ML) to help clients understand the demographics of their Twitter followers. Created microservice to estimate user’s age from their Twitter profile using machine learning models(LLM).",
+        "Designed and implemented a Node.js microservice that helps clients in task management and a goals dashboard to track monthly progress.",
+        "Implemented multiple features in their Angular-based customer-facing application, including UI components, supporting query parameters to restore app state, pagination, and caching.",
+        "Contributed to CI/CD pipeline automation, and single handedly carried out all DevOps responsibilities for team",
+        "Junior developers were trained to independently design and lead projects."
       ],
       link: "",
     },
     {
-      title: "DSA Mentor",
-      company_name: "GeeksforGeeks (Intern)",
-      icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
+      title: "Junior developer, Full-stack",
+      company_name: "Fulcurm in Ukrain",
+      icon: "https://fulcrum.rocks/wp-content/uploads/2023/01/favicon.svg",
       iconBg: "#E6DEDD",
-      date: "May 2022 - Apr 2023",
-      link: "",
+      date: "Apr 2020 - Apr 2021",
+      link: "https://fulcrum.rocks/wp-content/uploads/2023/01/favicon.svg",
       points: [
-        "Teaching Assistant : Teaching Assistant for online batches of Data Structures, Algorithms, and Competitive programming with an average rating of 4.9*.",
-        "Responsible for reviewing and writing articles based on Data Structures and Algorithms.",
+        "Developed scalable financial web applications:  Leveraged Vue and React frameworks along with Laravel, Node Js, Postgresql, Elasticsearch, and MongoDB to build to robust financial web applications. Implement various features such as real-time data updates, user authentication, and secure transaction processing.",
+        "Collaborated on full stack e-commerce solutions: Worked with a cross-functional team to develop e-commerce platforms using ASP.NET, Vue js, PostgreSQL, and AWS",
+        "Developed AI applications: Involved in several AI applications including Robot controlling system utilizing Python and its libraries.",
+        "Automated deployment processes: Implemented CI/CD pipelines utilizing Docker, Jenkins, and AWS to automate the deployment and delivery of applications."
       ],
-      link: "https:/",
+      link: "",
     },
     {
-      title: "Technical Content Writer",
-      company_name: "GeeksforGeeks",
-      icon: "https://img.icons8.com/color/344/GeeksforGeeks.png",
+      title: "Back-end and Front-end developer",
+      company_name: "WESOFTYOU in Ukrain",
+      icon: "https://wesoftyou.com/wp-content/uploads/2023/02/cropped-favicon-new-192x192.png",
       iconBg: "#383E56",
-      date: "Dec 2020 - July 2022",
+      date: "March 2019 - Feb 2020",
       link: "",
       points: [
-        "Creative and experienced content writer with 2+ years of experience.",
-        "Attracted over 10000+ visitors to the company website with powerful educational content.",
-        "Wrote 100+ articles and improved 300+ articles on topics like Data Structures, Algorithms, Mathematics and related engineering topics",
+        "Designed and developed robust back-end systems using Python and Java.",
+        "Collaborated with cross-functional teams to create efficient and scalable software solutions.",
+        "Developed inventory management systems, and optimized database queries for seamless user experiences.",
+        "Implemented RESTful APIs and integrating third-party APIs for seamless data exchange between systems.",
+        "Pioneered a new field in the front-end sector by improving the UI in line with changing trends and researching and introducing a system that can achieve maximum performance in the front-end in line with improved backend functions."
       ],
-      link: "https://e",
-    },
-    {
-      title: "Google Cloud Training",
-      company_name: "Google Cloud",
-      icon: "https://img.icons8.com/fluency/344/google-cloud.png",
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Apr 2021",
-      link: "",
-      points: [
-        "Introduction to GCP and more functionalities with free access to quests, skill badges.",
-        "Collaborating with cross-functional technologies.",
-        "Got introduced to Computing, Application Development, Big Data and Machine Learning using Google Cloud's on training platform Qwiklabs",
-        "Additional self-paced labs were provided to practice on Qwiklabs a platform by Google",
-      ],
-      link: "https://0",
-    },
-    {
-      title: "Hacktoberfest",
-      company_name: "GitHub",
-      icon: hf,
-      iconBg: "#E6DEDD",
-      date: "Oct (2020 - 2022)",
-      link: "",
-      points: [
-        "Hacktoberfest is an annual worldwide event held during the month of October. The event encourages open source developers to contribute to repositories through pull requests (PR).",
-        "GitHub hosts many open source repositories that contribute to this event.",
-      ],
-      link: "",
     },
   ];
   
@@ -635,31 +514,21 @@ import {
     {
       degree: "Bachelor of Engineering",
       branch:
-        "Information Technology",
+        "Master of Computer Science (MSCS), Computer science",
       marks:
-        "CGPA : 9.42 / 10",
-      name: "Army Institute of Technology Dighi, Pune",
-      year: "(2019 - 2023)",
+        "",
+      name: "Kyiv National University",
+      year: "(2017 - 2019)",
       image: clg,
     },
     {
       degree:
-        "12th Grade",
+        "Student",
       branch : "Science",
       marks:
-        "Percentage : 89.88 %",
-      name: "Kendriya Vidyalaya RHE Khadki Pune",
-      year: "2018",
-      image: school,
-    },
-    {
-      degree:
-        "10th Grade",
-      branch: "SSC",
-      marks:
-        "Percentage : 95 %",
-      name: "Kendriya Vidyalaya RHE Khadki Pune",
-      year: "2016",
+        "",
+      name: "Kyiv National University",
+      year: "(2013 - 2017)",
       image: school,
     },
   ];

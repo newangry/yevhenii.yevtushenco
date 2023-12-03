@@ -22,12 +22,12 @@ const App = () => {
         <Content 
           setSelColor={setSelColor}
         />
-        <Education theme={selTheme} />
+        <Education theme={selTheme} /><s></s>
         <Project theme={selTheme} selColor={selColor}/>
         <Experience theme={selTheme}/>
-        <Achievement theme={selTheme}/>
-        <Profile theme={selTheme}/>
-        <Tech theme={selTheme}/>
+        {/* <Achievement theme={selTheme}/>
+        <Profile theme={selTheme}/> */}
+        {/* <Tech theme={selTheme}/> */}
         <div className='relative z-0'>
           <Contact theme={selTheme} selColor={selColor}/>
           <StarsCanvas theme={selTheme}/>

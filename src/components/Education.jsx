@@ -37,22 +37,17 @@ const FeedbackCard = ({
           {year}
         </p>
       </div>
-
     </div>
-
-    <p className='text-white font-black text-[48px]'>"</p>
-
+    <p className='text-white font-black text-[48px]'></p>
     <div className='mt-1'>
       <p className={`text-center text-${theme.education.title_1} tracking-wider text-[18px]`}>{degree}</p>
       <p className={`mt-3 text-center ${theme.education.title_2}-text-gradient`}>{branch}</p>
       <p className={`mt-3 text-center ${theme.education.title_3}-text-gradient`}>{marks}</p>
-
     </div>
   </motion.div>
 );
 
-const Education = ({theme}) => {
-  
+const Education = ({theme}) => {  
   return (
     <motion.section
       variants={staggerContainer()}

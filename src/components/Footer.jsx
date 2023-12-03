@@ -10,7 +10,7 @@ const Footer = () => {
           &#x3c;&#47;&#x3e; with ❤️ by
           <a href="/" target="_blank">
             {" "}
-            Yevhenii Yevtushenco
+            Yevhenii Yevtushenko
           </a>
           😎
         </p>
